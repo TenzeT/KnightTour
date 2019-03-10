@@ -1,0 +1,38 @@
+Title: 
+                 Knight Tour
+
+People: 
+                 T - Software Engineer
+
+Overview:
+
+                 This project contains a single class - KnightTour -
+                 which simulates a knight chess piece on an 
+                 8x8 chess board attempting to make a move to
+                 every board square just a single time. A
+                 successful 'tour' is returned as a bool True. 
+                 The board is printed to the console showing
+                 where the night moved and in what order - 
+                 starting at 0.
+
+Proposed Solution:
+
+                 Utilizing a 2d array as an 8x8 chess board, the
+                 knight will only make legal moves (2 in one
+                 direction then 1 perpendicular to the last move
+                 direction. Legal moves will be stored from 0-7
+                 in two corresponding 1d arrays containing the
+                 number of unit changes per respective move. 
+                 Legality of moves will be checked so the knight
+                 does not move 'off' of the board. An accessibility 
+                 heuristic will be added to the chess board's 
+                 square for the knight to use as a strategy - the 
+                 knight will move to more restricted locations first.
+                 Spaces the knight have previously visited will be
+                 tracked. 
+
+Milestones:
+
+                1. The knight will make only legal moves. The
+                    move-history board will be printed out.
+                2. The accessibility heuristic will be implemented.
