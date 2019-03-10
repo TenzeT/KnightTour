@@ -1,5 +1,5 @@
 # Knight's Tour
-A program to solve the Knight's Tour problem
+A program to solve the Knight's Tour problem. KnightTour.xml contains the KnightTour class UML diagram and design documentation.
 
 ## Getting Started
 
@@ -16,4 +16,7 @@ There is currently no user interface so the starting position of 2-1 is hard-cod
 
 ## License
 This project is licensed under the LGPL License
+
+## Acknowledgments
+* Paul Dietel, Harvey Dietel - strategy
 
