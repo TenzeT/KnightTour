@@ -6,7 +6,7 @@ A program to solve the Knight's Tour problem. KnightTour.xml contains the Knight
 Download required source files - there are only three. This project was built with VS 2017 and #include "stdafx.h" is required in each .cpp file. If running on different compiler, remove #include "stdafx.h" in each .cpp file.
 
 ## Run
-There is currently no user interface so the starting position of 2-1 is hard-coded. At this starting location, the program will run successfully.
+There is currently no user interface so the starting position of 2-1 is hard-coded. At this starting location, the knight will 'tour' successfully and the move-history board will be printed to console.
 
 ## Built with
 * [Visual Studio](https://visualstudio.microsoft.com/vs/) - IDE used
